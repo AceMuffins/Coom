@@ -1,6 +1,10 @@
 #include <stdio.h>
 
+void GameLoop(){
+
+}
+
 int main() {
-    printf("Hello world!\n");
+    GameLoop();
     return 0;
 }
