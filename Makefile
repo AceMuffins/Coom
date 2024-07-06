@@ -17,7 +17,7 @@ INCLUDE=./libs/$(SDL_PLATFORM_DIR)/include
 LIB=./libs/$(SDL_PLATFORM_DIR)/lib
 
 all:
-	gcc $(SRC) -f -I&(INCLUDE) -L$(LIB) -lSDL2 -o $(OUTPUT)
+	gcc $(SRC) -I$(INCLUDE) -L$(LIB) -lSDL2 -o $(OUTPUT)
 
 clean: 
 	rm $(OUTPUT)
