@@ -13,9 +13,9 @@
 
 #include <stdio.h>
 #include "typedefs.h"
-#include "players.h"
-#include "game_state.h"
-#include "utils.h"
+#include "p_player.h"
+#include "g_game_state.h"
+#include "u_utils.h"
 
 typedef struct _r_plane{
     int t[1024];
